@@ -33,13 +33,14 @@ Add in your Activity file.
 int totalMatches = 70;
 double winRatePercentage = 70.0;
 double targetWinRate = 90.0;
+
 new MLBBWinRateCalculator(totalMatches, winRatePercentage, targetWinRate)
-        .calculateWinRate(new MLBBWinRateCalculatorListener() {
-            @Override
-            public void onWinRateCalculated(String result) {
-                ((TextView) findViewById(R.id.textview1)).setText(result);
-            }
-        });
+    .calculateWinRate(new MLBBWinRateCalculatorListener() {
+        @Override
+        public void onWinRateCalculated(String result) {
+            ((TextView) findViewById(R.id.textview1)).setText(result);
+        }
+    });
 ```
 
 #
