@@ -22,6 +22,9 @@ And add a dependency code to your **module**'s `build.gradle` file.
 dependencies {
         implementation 'com.github.sudoxE7:MLBBWinRateCalculator:master-SNAPSHOT'
 }
+
+// If dependency not found, try this:
+'com.github.sudoxE7:MLBBWinRateCalculator:-04d401dd23-1'
 ```
 
 ## Default Usage
