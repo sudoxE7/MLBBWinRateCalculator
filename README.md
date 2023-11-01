@@ -7,10 +7,7 @@ MLBB Winrate Calculator Library for Android
 <img src="/images/Screenshot_2023-10-31-07-02-21-09_963a3a89f8f57c187f7ab51f689e160d.jpg" width=25%/>
 </p>
 
-## Including in your project
-[![](https://jitpack.io/v/sudoxE7/MLBBWinRateCalculator.svg)](https://jitpack.io/#sudoxE7/MLBBWinRateCalculator)
-
-### Gradle
+## Gradle
 Add below codes to your **root** `build.gradle` file (not your module build.gradle file).
 ```gradle
 allprojects {
